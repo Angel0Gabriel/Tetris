@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tetris</title>
+	<link rel="stylesheet" href="./Assets/css/style.css">
+	
+</head>
+
+<body>
+	<audio src="./Assets/audio/tetrismusicfim2.mp3" controls autoplay loop> </audio>
+
+	<audio id="baixolado">
+		<source src="./Assets/audio/pecalado.mp3" type="audio/mp3">
+	</audio>
+
+	<audio id="pecarodar">
+		<source src="./Assets/audio/somdeclick.mp3" type="audio/mp3">
+	</audio>
+
+	<audio id="pecatravar">
+		<source src="./Assets/audio/travarpeca.mp3" type="audio/mp3">
+	</audio>
+
+	<audio id="linhaquebrar">
+		<source src="./Assets/audio/quebrarlines.mp3" type="audio/mp3">
+	</audio>
+
+	<audio id="fimdogame">
+		<source src="./Assets/audio/bassdropfimdejogo.mp3" type="audio/mp3">
+	</audio>
+
+
+	<div class="estatisticas">
+		<div id="teste1">Score: 0</div>
+		<div id="scoreFinal"> Score: 0</div>
+		<div id="teste2">Nivel: 1</div>
+		<div id="teste3">Linhas Eliminadas: 0</div>
+		<div id="user">Nome Do Jogador: Angelo Pc</div>
+	</div>
+
+	<div class="estatisticas2" id="est2">
+		<div id="pecavermelha"> Peças vermelhas: 0</div>
+		<div id="pecaverde"> Peças verdes: 0</div>
+		<div id="pecamarrom"> Peças marrons: 0</div>
+		<div id="pecaazul"> Peças azuis: 0</div>
+		<div id="pecaamarela"> Peças amarelas: 0</div>
+		<div id="pecalaranja"> Peças laranjas: 0</div>
+		<div id="pecacinza"> Peças cinzas: 0</div>
+	</div>
+
+	<div>
+		<label id="fimdejogo">
+		</label>
+	</div>
+
+	<div>
+		<label id="estatisticas2">
+		</label>
+	</div>
+
+	<canvas id="tela" width="300" height="600"></canvas>
+
+	<script src="./Assets/js/index.js"></script>
+</body>
+
+</html>

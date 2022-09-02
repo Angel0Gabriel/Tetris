@@ -1,0 +1,74 @@
+body {
+    background-color: grey;
+}
+
+div {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+}
+
+canvas {
+    display: block;
+    margin: 0 auto;
+}
+
+#fimdejogo {
+    position: absolute;
+    margin-left: -125px;
+    margin-top: 61px;
+}
+
+#tela {
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 120px;
+}
+
+#nivel {
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 120px;
+}
+
+#nome do jogador {
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 180px;
+}
+
+#linhas eliminadas {
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 150px;
+}
+
+#score {
+    display: inline-block;
+}
+
+#scoreFinal {
+    display: none;
+}
+
+.estatisticas {
+    width: 360px;
+    background-color: cadetblue;
+    border: 10px solid;
+    border-radius: 15px;
+    position: absolute;
+    margin-left: 365px;
+    margin-top: 119px;
+}
+
+.estatisticas2 {
+    width: 360px;
+    background-color: cadetblue;
+    border: 10px solid;
+    border-radius: 15px;
+    position: absolute;
+    margin-left: 365px;
+    margin-top: 280px;
+    display: none;
+}
